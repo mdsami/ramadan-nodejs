@@ -1,0 +1,32 @@
+{
+  "name": "ramadan-nodejs",
+  "version": "1.0.0",
+  "description": "Ramadan Application Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdsami/ramadan-nodejs.git"
+  },
+  "keywords": [
+    "Ramadan",
+    "webservices"
+  ],
+  "author": "mdsami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdsami/ramadan-nodejs/issues"
+  },
+  "homepage": "https://github.com/mdsami/ramadan-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
